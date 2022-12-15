@@ -9,13 +9,15 @@ navMenuToggle.addEventListener('click', () => {
     } else {
         navMenu.classList.add('show-nav')
         closeMenu.setAttribute("data-active", "true")
+        document.body.addEventListener("touchmove", e => {
+            e.preventDefault()
+            e.stopPropagation()
+        }, { passive: false}) 
     }
-
     const dataActive = navMenuToggle.getAttribute('data-active')
     if (dataActive === 'true') {
         navMenuToggle.setAttribute("data-active", "false")
     }
-
 })
 
 closeMenu.addEventListener('click', () => {
@@ -26,15 +28,3 @@ closeMenu.addEventListener('click', () => {
     }
 
 })
-
-
-
-
-
-
-
-
-
- 
-
-

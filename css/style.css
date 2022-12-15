@@ -257,7 +257,6 @@ body {
 }
  .section-four-text-content {
     color: var(--light);
-    z-index: 1;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -340,13 +339,14 @@ body {
     top: 0;
     right: 0;
     border: none;
+    z-index: -1;
   }
 
   .contact-info {
     color: var(--light);
     padding-inline: 3rem;
     padding-top: 3rem;
-    z-index: 10;
+    
     position: absolute;
     top: 0;
     left: 0;
@@ -702,7 +702,6 @@ textarea {
         padding-top: 8rem;
         padding-bottom: 2rem;
         transform: translateY(-100%);
-        
     }
 
     .nav-menu a {
@@ -727,7 +726,7 @@ textarea {
     .mobile-toggle-container {
         z-index: 9999;
         display: block;
-        position: absolute;
+        position: fixed;
         top: 2rem;
         right: 2rem;
     }
@@ -781,6 +780,7 @@ textarea {
     .show-nav {
         transform: translateY(0%);
         transition: transform 700ms ease-in;
+        height: 100vh;
     }
 
     .mobile-menu-toggle[data-active="false"] {
