@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/universal.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="script/app.js"></script>
+    <script src="script/animation.js" defer></script>
+    <title>BetMomo Lounge | Resturant & Snackbar</title>
+</head>
+<body>
+    <main class="main-section" data-background="inactive">
+        <div class="container">
+            <header class="header transparent-header">
+                <img src="images/betmomoT.png" alt="" class="logo" onclick="document.location='index.html'">
+                <div class="mobile-toggle-container">
+                    <!-- open Icon -->
+                    <svg width="32" height="18" xmlns="http://www.w3.org/2000/svg" class="mobile-menu-toggle" aria-controls="nav-menu" data-active="true"><g fill="#C47127" fill-rule="evenodd"><path d="M0 0h32v2H0zM0 8h32v2H0zM0 16h32v2H0z"/></g></svg>
+                    <!-- close icon -->
+                    <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg" class="close-menu-icon" data-active="false"><g fill="#C47127" fill-rule="evenodd"><path d="m2.393.98 22.628 22.628-1.414 1.414L.979 2.395z"/><path d="M.98 23.607 23.609.979l1.414 1.414L2.395 25.021z"/></g></svg>
+                </div>
+
+
+                <!-- nav menu -->
+                <nav>
+                    <ul class="nav-menu" id="nav-menu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="menu.html">menu</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="hero">
+                <div class="welcome-msg">
+                    <h2 class="text-center">Welcome to <span class="bm-bg"> <span class="bet">Bet</span><span class="momo">Momo</span></span> Lounge</h2>
+                </div>
+                <div class="hero-text-container">
+                    <div class="text-container-1" data-text-slider-1="active">
+                        <h3>want a delicious meal?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sodales sagittis fringilla. Ut scelerisque lacus elit, semper laoreet ipsum pulvinar sed. Cras tempor 
+                        </p>
+                        <button onclick="document.location='menu.html'" class="btn btn-hero">
+                            See our menu <i class="fa-solid fa-right-long"></i>
+                        </button>
+                    </div>
+                    <div class="text-container-2" data-text-slider2="inactive">
+                        <h3>Take a sip. A moment of chill</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sodales sagittis fringilla. Ut scelerisque lacus elit, semper laoreet ipsum pulvinar sed. Cras tempor 
+                        </p>
+                        <button onclick="document.location='menu.html'" class="btn btn-hero">
+                            See our menu <i class="fa-solid fa-right-long"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="slider-img-container">
+                    <img src="images/burger.png" alt="" class="burger-img" data-burger="active">
+
+                    <img src="images/cocktail-1.png" alt="" class="cocktail-img" data-cocktail="inactive-1">
+                </div>
+            </section>
+        </div>
+    </main>
+                <!-- section 2 -->
+    <section class="index-section-2 container">
+        <div class="grid">
+            <div class="index-section-2-text-content">
+                <div class="svg-image-container">
+                    <svg width="76" height="101" viewBox="0 0 76 100" fill="none" xmlns="http://www.w3.org/2000/svg" class="cocktail-svg">
+                        <path d="M55.6155 100.779C55.98 100.781 56.3303 100.634 56.5893 100.371C56.8483 100.108 56.9948 99.7501 56.9966 99.3764C56.9983 99.0027 56.8552 98.6436 56.5987 98.3782C56.3422 98.1127 55.9933 97.9626 55.6288 97.9609L38.8757 97.8818L39.0306 65.0596L75.0084 19.7697C75.1637 19.561 75.2623 19.3139 75.294 19.0535C75.3257 18.793 75.2895 18.5287 75.189 18.2873C75.0714 18.0515 74.8943 17.8524 74.6761 17.7105C74.458 17.5686 74.2068 17.4892 73.9486 17.4806L22.3292 17.2369L9.38722 0.534416C9.15621 0.255296 8.82827 0.0793279 8.47286 0.0437908C8.11744 0.00825364 7.76246 0.115925 7.48308 0.344012C7.2037 0.5721 7.02186 0.902699 6.97606 1.26578C6.93026 1.62887 7.02411 1.99594 7.23772 2.28927L18.7416 17.1755L1.75694 17.0953C1.49865 17.1015 1.24669 17.1785 1.02723 17.3183C0.807768 17.4582 0.628819 17.6556 0.508969 17.8903C0.406187 18.1307 0.367452 18.3947 0.396722 18.6554C0.425992 18.9161 0.522212 19.1642 0.675568 19.3743L36.2818 65.0466L36.1269 97.8688L19.3448 97.7896C18.9803 97.7879 18.63 97.9347 18.371 98.1977C18.112 98.4607 17.9655 98.8184 17.9638 99.1921C17.962 99.5658 18.1051 99.9249 18.3616 100.19C18.6181 100.456 18.967 100.606 19.3315 100.608L55.6155 100.779ZM45.7178 52.1281L37.6258 62.3091L14.502 32.6251L21.2727 32.6571C21.4159 31.6954 21.658 30.7519 21.9948 29.8424L12.3452 29.7969L4.68029 19.9716L20.9849 20.0486L29.081 30.4691L28.6871 31.1644C27.894 32.7912 27.582 34.6202 27.7894 36.4262C27.9968 38.2322 28.7145 39.9366 29.8544 41.3297C30.7024 42.541 31.8085 43.5383 33.0886 44.2459C34.3687 44.9535 35.7893 45.3529 37.2426 45.4137C37.9786 45.4173 38.711 45.3058 39.4143 45.0828L40.1823 44.8195L45.7178 52.1281ZM47.4934 49.8969L42.3023 43.1832L42.7541 42.4734C43.4736 41.2851 43.8605 39.9169 43.8723 38.5185C43.8751 36.1853 43.1111 33.9193 41.7036 32.0861C40.8511 30.8807 39.7437 29.8886 38.4643 29.184C37.1849 28.4793 35.7666 28.0804 34.3154 28.0169C33.5002 28.0141 32.691 28.161 31.9262 28.4506L31.1436 28.7435L24.4858 20.1096L71.0127 20.3292L63.2554 30.0817L48.3107 30.0111C48.8066 30.9148 49.228 31.8594 49.5705 32.8351L61.072 32.8894L47.4934 49.8969ZM34.3456 30.8203C34.7654 30.8217 35.1833 30.8785 35.589 30.9893C37.1392 31.4597 38.508 32.4133 39.5052 33.7177C40.5024 35.0222 41.0785 36.6127 41.1536 38.2684C41.1604 38.3572 41.1599 38.4465 41.1523 38.5353C41.1749 39.1856 41.0553 39.8329 40.8021 40.4297C40.5489 41.0265 40.1687 41.5577 39.6893 41.9843C39.005 42.5099 38.1676 42.783 37.313 42.7591C36.7014 42.7511 36.0955 42.6379 35.5206 42.4244C34.1248 41.8862 32.9125 40.9424 32.0322 39.7085C31.1966 38.611 30.6677 37.3012 30.5021 35.9191C30.3443 35.1321 30.3974 34.3159 30.6557 33.5572C30.914 32.7985 31.3679 32.1256 31.9692 31.61C32.6516 31.0791 33.4892 30.8007 34.3456 30.8203Z" fill="#16263D"/>
+                    </svg>
+                    <svg width="78" height="102" viewBox="0 0 78 102" fill="none" xmlns="http://www.w3.org/2000/svg" class="cocktail-svg-two">
+                        <path d="M18.8993 100.445C18.5322 100.445 18.1802 100.295 17.9206 100.027C17.6611 99.7599 17.5153 99.3973 17.5154 99.0192C17.5154 98.6411 17.6613 98.2785 17.9209 98.0111C18.1805 97.7437 18.5326 97.5934 18.8997 97.5934L34.6496 97.5912L34.6537 66.4827L0.901267 23.3884C0.761495 23.1722 0.678617 22.9223 0.66075 22.6632C0.642882 22.4041 0.690654 22.1446 0.799352 21.9101C0.908051 21.6757 1.07397 21.4743 1.28088 21.3257C1.48779 21.1771 1.7286 21.0863 1.97974 21.0623L46.8546 21.0562L54.7831 1.39657C54.8949 1.14011 55.0744 0.921125 55.3011 0.764559C55.5278 0.607992 55.7926 0.520141 56.0654 0.511019L56.3568 0.510979L75.9088 4.77019C76.0875 4.80621 76.2571 4.87933 76.4074 4.98509C76.5577 5.09086 76.6854 5.22704 76.7829 5.38535C76.8836 5.54024 76.9534 5.71418 76.9884 5.89705C77.0234 6.07992 77.0228 6.2681 76.9868 6.45077C76.9106 6.76878 76.7354 7.05241 76.4881 7.25837C76.2408 7.46432 75.9349 7.58131 75.617 7.59147L75.3402 7.59151L56.91 3.57225L49.856 21.0408L70.1808 21.0381C70.4408 21.0456 70.6942 21.1246 70.9145 21.2671C71.1349 21.4096 71.3141 21.6103 71.4337 21.8482C71.536 22.0919 71.5737 22.3592 71.543 22.6229C71.5122 22.8865 71.4141 23.1371 71.2586 23.3489L37.4219 66.5423L37.4178 97.5909L53.1677 97.5887C53.3866 97.5146 53.6193 97.495 53.8469 97.5315C54.0745 97.568 54.2905 97.6595 54.477 97.7986C54.6636 97.9377 54.8155 98.1204 54.9202 98.3317C55.0249 98.543 55.0795 98.7769 55.0795 99.0141C55.0794 99.2514 55.0248 99.4852 54.92 99.6965C54.8152 99.9079 54.6633 100.091 54.4767 100.23C54.2901 100.369 54.0741 100.46 53.8465 100.497C53.6189 100.534 53.3862 100.514 53.1674 100.44L18.8993 100.445ZM36.0673 63.8263L57.9256 35.9562L43.9095 35.9581L37.3218 52.2711C37.208 52.5248 37.0276 52.7406 36.801 52.8945C36.5745 53.0483 36.3108 53.1339 36.0396 53.1417C35.8596 53.1446 35.6809 53.1088 35.5151 53.0367C35.1869 52.8791 34.9274 52.6011 34.7874 52.2571C34.6474 51.9131 34.6368 51.5277 34.7577 51.176L45.7323 24.0277L4.93701 24.0332L12.0896 33.1562L34.7892 33.1531L33.6087 36.0045L14.2601 36.0071L36.0673 63.8263ZM48.7045 24.0123L45.0318 33.1067L60.1406 33.1047L67.2956 23.9647L48.7045 24.0123Z" fill="#16263D"/>
+                    </svg>
+                </div>
+                <div class="align-center">
+                    <p>“Food is one part of the experience. And it has to be somewhere between 50 to 60 percent of the dining experience. But the rest counts as well: The mood, the atmosphere, the music, the feeling, the design, the harmony between what you have on the plate and what surrounds the plate.”
+                    </p>
+                    <button class="btn btn-contact-us">
+                        contact us
+                    </button>
+                </div>
+            </div>
+            <img src="images/betmomoloungebar_4.jpg" alt="" class="section-one-img-one">
+        </div>
+        <!-- section 3 -->
+    </section>
+    <section class="index-section-3">
+        <div class="flex">
+            <h3>
+                Menu
+            </h3>
+            <p>
+                Food & Drinks
+            </p>
+            <button class="btn btn-menu">
+                view menu
+            </button>
+        </div>
+    </section>
+    <!-- section 4 -->
+    <section class="index-section-4">
+        <div class="grid">
+            <img src="images/betmomoloungebar_3.jpg" alt="" class="section-one-img-one">
+            <div class="section-four-text-content">
+                <div class="reservation">
+                    <h3>Reservations</h3>
+                    <button class="btn btn-menu">
+                        Reservations
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 5 -->
+    <section class="index-section-5">
+        <h2 class="text-center">Follow Us</h2>
+        <h2 class="ig-handle text-center">@betmomoloungebar</h2>
+        <div class="grid-4 container">
+            <img src="images/betmomoloungebar_2.jpg" alt="">
+            <img src="images/mewe-img-1670283102441.jpg" alt="">
+            <img src="images/mewe-img-1670283115991.jpg" alt="">
+            <img src="images/mewe-img-1670283125908.jpg" alt="">
+            <img src="images/betmomoloungebar_3.jpg" alt="">
+            <img src="images/mewe-img-1670283158530.jpg" alt="">
+            <img src="images/mewe-img-1670283173507.jpg" alt="">
+            <img src="images/betmomoloungebar_2.jpg" alt="">
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div >
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.6107331782246!2d11.505874314400005!3d3.893297097168151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x108bcf5c365b2ecf%3A0x2dc74cdbd77db82c!2sBETMOMO%20RESTAURANT%20LOUNGE!5e0!3m2!1sen!2scm!4v1670421193273!5m2!1sen!2scm" class="google-maps" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-info bg-dark grid" >
+            <div class="location">
+                <h2 class="secondary-color toUpperCase">
+                    Where are we
+                </h2>
+                <hr class="hr-short secondary-color">
+                <p class="address">
+                    Derrière Laboratoire Meka, Bastos - Yaoundé
+                </p>
+                <h3 class="call-us secondary-color toUpperCase">
+                    Call Us
+                </h3>
+                <p>
+                    655556264 / 680014949
+                </p>
+                <h3 class="write-us secondary-color toUpperCase">
+                    Email Us
+                </h3>
+                <p>
+                    example@example.com
+                </p>
+            </div>
+            <div class="oppening-times">
+                <h2 class="secondary-color toUpperCase">
+                    Opening Times
+                </h2>
+                <hr class="hr-short secondary-color">
+                <h3 class="toUpperCase">
+                    Everyday Open
+                </h3>
+                <p>Monday - Sunday
+                </p>
+                <p>12:00 PM - 02:00 Am</p>
+            </div>
+            <div class="socials">
+                <a href="instagram.com" target="_blank" class="secondary-color"> <i class="fa-brands fa-instagram fa-3x"></i></a>
+                <a href="facebook.com" target="_blank" class="secondary-color"> <i class="fa-brands fa-facebook fa-3x"></i></a>
+                <a href="twitter.com" class="secondary-color" target="_blank"><i class="fa-brands fa-twitter fa-3x"></i></a>
+            </div>
+            <div> 
+                <h4>
+                    Sign up to our newsletter
+                </h4>
+                <form class="newsletter">
+                    <input type="email" id="email">
+                    <button type="submit" class="btn btn-submit">
+                        sign up
+                    </button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

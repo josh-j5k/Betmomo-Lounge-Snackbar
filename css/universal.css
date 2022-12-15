@@ -1,0 +1,96 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul  {
+    list-style: none;
+}
+
+a  {
+    text-decoration: none;
+    color: #000;
+}
+h1,
+h2,
+h3,
+h4, 
+p   {
+    padding-bottom: 15px;
+    margin-bottom: 10;
+}
+
+.container  {
+    max-width: 1100px;
+    margin-inline: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+section {
+    margin-block: 20px;
+    padding-block: 10px;
+}
+
+.btn {
+    cursor: pointer;
+    font-family: var(--font-family);
+    text-transform: capitalize;
+    border: none;
+    color: var(--light);
+    padding: 10px 20px;
+    background-color: #000;
+    border-radius: 10px;
+    transition: transform 2ms ease-in;
+}
+
+
+.btn:hover  {
+    transform: scale(0.98);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.toUpperCase {
+    text-transform: uppercase;
+}
+
+.toCapitalize {
+    text-transform: capitalize;
+}
+
+.text-light {
+    color: var(--light);
+}
+.text-dark {
+    color: var(--dark);
+}
+
+.primary-dark {
+    color: var(--primary-color-dark);
+}
+.bg-dark {
+    background-color: var(--primary-color-dark);
+}
+.primary-light {
+    color: var(--primary-color-light);
+}
+.secondary-color {
+    color: var(--secondary-color);
+}
+

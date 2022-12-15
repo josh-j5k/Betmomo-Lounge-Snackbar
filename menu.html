@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/universal.css">
+        <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/style.css">
+        <script defer src="script/app.js"></script>
+        <script src="script/menu-page.js" defer></script>
+        <title>BetMomo Lounge | Our Menu</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header-fullwidth">
+                <header class="header container">
+                    <img src="images/betmomoT.png" alt="" class="logo" onclick="document.location='index.html'">
+                    <div class="mobile-toggle-container">
+                        <!-- open Icon -->
+                        <svg width="32" height="18" xmlns="http://www.w3.org/2000/svg" class="mobile-menu-toggle" aria-controls="nav-menu" data-active="true"><g fill="#f1ec16" fill-rule="evenodd"><path d="M0 0h32v2H0zM0 8h32v2H0zM0 16h32v2H0z"/></g></svg>
+                                <!-- close icon -->
+                        <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg" class="close-menu-icon" data-active="false"><g fill="#f1ec16" fill-rule="evenodd"><path d="m2.393.98 22.628 22.628-1.414 1.414L.979 2.395z"/><path d="M.98 23.607 23.609.979l1.414 1.414L2.395 25.021z"/></g></svg>
+                    </div>
+
+
+                    <!-- nav menu -->
+                    <nav>
+                        <ul class="nav-menu" id="nav-menu">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="menu.html">menu</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+            <section class="hero-section">
+                <h1 class="hero-section-heading toUpperCase text-center text-light">Our Menu</h1>
+            </section>
+            <section class="menu-items">
+                <div class="buttons-container">
+                    <button aria-controls="wine-beer" class="btn btn-menu-selection wine-beer">
+                        wine & beer
+                    </button>
+                    <button aria-controls="whiskey-champagne" class="btn btn-menu-selection whiskey-champagne">
+                        Whiskey & Champagne 
+                    </button>
+                    <button aria-controls="cocktails" class="btn btn-menu-selection cocktails">
+                        Cocktails
+                    </button>
+                    <button class="btn btn-menu-selection soft-hot-drinks-fruit-juice" aria-controls="soft-hot-drinks-fruit-juice">
+                        Soft & Hot deinks | fruit juice
+                    </button>
+                    <button aria-controls="dessert" class="btn btn-menu-selection dessert">
+                        Dessert
+                    </button>
+                    <button aria-controls="sandwich-burgers" class="btn btn-menu-selection sandwich-burgers">
+                        Sandwich & Burgers
+                    </button>
+                </div>
+                <!-- Restaurant and bar menu -->
+                <div class="betmomo-menu">
+                    <!-- Wine and beer -->
+                    <div id="wine-beer" class="betmomo-menu-items" data-menu-list="active">
+                        <div>
+                            <div class="div-with-border">
+                                <h2 class="betmomo-menu-header">
+                                    Beer
+                                </h2>
+                                <div class="toUpperCase">
+                                    <p>
+                                        Heinekeen 33cl kronenbourg 33cl
+                                    </p>
+                                    <p>castel</p>
+                                    <p>33 export</p>
+                                    <p>mutzig</p>
+                                    <p>guiness</p>
+                                    <p>isenbeck</p>
+                                    <p>harp</p>
+                                    <p>malta guiness</p>
+                                    <p>sminoff ice black</p>
+                                    <p>ananas </p>
+                                </div>
+                            </div>
+                            <div class="div-with-border">
+                                <h2 class="betmomo-menu-header">
+                                    Sparkling Wine 
+                                </h2>
+                                <div class="toUpperCase">
+                                    <p>
+                                        Muscato tuso
+                                    </p>
+                                    <p>luc belaire gold classic</p>
+                                </div> 
+                            </div>
+                        </div>
+                        <div>
+                            <div class="div-with-border">
+                                <h2 class="betmomo-menu-header">
+                                    Red Wine
+                                </h2>
+                                <div class="toUpperCase">
+                                    <p>
+                                        MC merlot castel
+                                    </p>
+                                    <p>Haut medoc de giscours</p>
+                                    <p>Chateaux d’arcins</p>
+                                    <p>Martini</p>
+                                    <p>Campari</p>
+                                </div> 
+                            </div>
+                            <div class="div-with-border">
+                                <h2 class="betmomo-menu-header">
+                                    White wine 
+                                </h2>
+                                <div class="toUpperCase">
+                                    <p>
+                                        BG sauvignon blanc
+                                    </p>
+                                    <p>Monbazillac</p>
+                                    <p>Martini</p>
+                                    <p>Campari</p>
+                                </div> 
+                            </div>
+                            <div class="div-with-border">
+                                <h2 class="betmomo-menu-header">
+                                    Dew wine  
+                                </h2>
+                                <div class="toUpperCase">
+                                    <p>
+                                        Listel gris
+                                    </p>
+                                    <p>Carbenet d’anjou</p>
+                                    <p>Martini</p>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Whisky and champagne -->
+                    <div id="whiskey-champagne" class="betmomo-menu-items">
+                        <div>
+                            <div class="div-with-border">
+                                <h2 class="betmomo-menu-header">
+                                    Regular whiskey 
+                                </h2>
+                                <div class="toUpperCase">
+                                    <p>
+                                        Johnnie red label
+                                    </p>
+                                    <p>clan campbell</p>
+                                    <p>Gordon dry gin</p>
+                                    <p>Tanqueray dry gin</p>
+                                    <p>black sminoff vodka</p>
+                                    <p>cachacha</p>
+                                    <p>rhum st james</p>
+                                    <p>blanc-brune</p>
+                                    <p>rhum Bacardi blancbrune</p>
+                                    <p>ballentine’s brazil  </p>
+                                </div>
+                            </div>
+                            <div class="div-with-border">
+                                <h2 class="betmomo-menu-header">
+                                    Champagne  
+                                </h2>
+                                <div class="toUpperCase">
+                                    <p>
+                                        cristal 
+                                    </p>
+                                    <p>dom perignon</p>
+                                    <p> ruinard blanc de Blanc</p>
+                                    <p> moet ice edition</p>
+                                    <p> ruinard brut</p>
+                                    <p>veuve clicquot</p>
+                                    <p>moet nectar</p>
+                                    <p>moet brut</p>
+                                    <p>Moet rosee</p>
+                                </div> 
+                            </div>
+                        </div>
+                        <div>
+                            <div class="div-with-border">
+                                <h2 class="betmomo-menu-header">
+                                    Our alcoholic creams 
+                                </h2>
+                                <div class="toUpperCase">
+                                    <p>
+                                        Bailey's classic
+                                    </p>
+                                    <p>bailey's almonde</p>
+                                    <p>bailey's apple pie</p>
+                                    <p>bailey's strawberry </p>
+                                    <p>bailey's red valvet</p>
+                                </div> 
+                            </div>
+                            <div class="div-with-border">
+                                <h2 class="betmomo-menu-header">
+                                    Premium whiskey  
+                                </h2>
+                                <div class="toUpperCase">
+                                    <p>
+                                        Jonny black label
+                                    </p>
+                                    <p>chivas regal absolute</p>
+                                    <p>vodka</p>
+                                    <p>jack daniels</p>
+                                    <p>tequila</p>
+                                    <p>hennessy vs</p>
+                                    <p>glenfiddich 12 years</p>
+                                    <p>singleton</p>
+                                </div> 
+                            </div>
+                            <div class="div-with-border">
+                                <h2 class="betmomo-menu-header">
+                                    Special selection   
+                                </h2>
+                                <div class="toUpperCase">
+                                    <p>
+                                        Chivas 18 years
+                                    </p>
+                                    <p>Glenfiddich 18 years</p>
+                                    <p>johnny walker 18 years</p>
+                                    <p>hennessy xo</p>
+                                    <p>blue label</p>
+                                </div> 
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- cocktail -->
+                    <div id="cocktails" class="betmomo-menu-items">
+                        <div>
+                            <div class="div-with-border">
+                                <h2 class="betmomo-menu-header">
+                                    Without Alcohol
+                                </h2>
+                                <div class="toUpperCase">
+                                    <div>
+                                        <h4>
+                                            Mojito fraise
+                                        </h4>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            pinky rose
+                                        </h4>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            bora bora
+                                        </h4>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            coconut lips
+                                        </h4>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            nojito
+                                        </h4>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            Virgin colada
+                                        </h4>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            Fruit cup
+                                        </h4>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            Betmomo fizz
+                                        </h4>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            Ze detox
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ends here -->
+                            <div class="div-with-border">
+                                <h2 class="betmomo-menu-header">
+                                    our twist | alcoholic cocktails
+                                </h2>
+                                <div class="toUpperCase">
+                                    <div>
+                                        <h4>
+                                            betmomo twist
+                                        </h4>
+                                        <p>Triple sec, malibu, vodka, curcao blue, jus d’ananas</p>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            spicy mojito 
+                                        </h4>
+                                        <p>Rhum, citron vert, sirop de canne, feuille de menthe fraichez, eau gazuese, piment vert</p>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            aperol spritz 
+                                        </h4>
+                                        <p>Aperol, santero, eau gazuese</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ends here -->
+                            <div class="div-with-border">
+                                <h2 class="betmomo-menu-header">
+                                    Our creation | alcoholic cocktails
+                                </h2>
+                                <div class="toUpperCase">
+                                    <div>
+                                        <h4>
+                                            le mbole 
+                                        </h4>
+                                        <p>Rhum, epice de chez nous, Cointreau</p>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            mojito royal 
+                                        </h4>
+                                        <p>Sirop de canne, feuille de menthe, santero, rhum</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-with-border">
+                                <h2 class="betmomo-menu-header">
+                                    Our shooter | alcoholic cocktails
+                                </h2>
+                                <div class="toUpperCase">
+                                    <div>
+                                        <h4>
+                                            love in the brain
+                                        </h4>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            flamming Lamborghini 
+                                        </h4>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            spicy chocolate 
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <!-- ends here -->
+                        <div>
+                            <!-- starts here -->
+                            <div class="div-with-border">
+                                <h2 class="betmomo-menu-header">
+                                    our classic | alcoholic cocktails
+                                </h2>
+                                <div class="toUpperCase">
+                                    <div>
+                                        <h4>
+                                            margarita 
+                                        </h4>
+                                        <p>Tequila, liqueur d’orange, jus de citron</p>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            tequila sunrise 
+                                        </h4>
+                                        <p>Tequila, liqueur d’orange, sirop de grenadine</p>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            Mojito 
+                                        </h4>
+                                        <p>Menthe, sirop de canne, rhum, champagne</p>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            side chick 
+                                        </h4>
+                                        <p>Vodka, tequila, sirop de peche, blanco, triple sec</p>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            pina colada  
+                                        </h4>
+                                        <p>Rhum jus d’ananas, puree de coco, malibu</p>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            daiquin
+                                        </h4>
+                                        <p>Rhum blanc, sirop de canne, jus de citron</p>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            cosmospolitain
+                                        </h4>
+                                        <p>Vodka, citron, Cointreau, jus de camembert</p>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            blue lagoon
+                                        </h4>
+                                        <p>Rhum blanc, sirop de canne, jus de citron</p>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            adios mother$%aka 
+                                        </h4>
+                                        <p>Rhum blanc, cum, tequila, vodka, curacao, sweet & sour, lemonade</p>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            whiskey sour 
+                                        </h4>
+                                        <p>Bourbon, bitter, sour, blanc d’oeuf</p>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            long island ice tea
+                                        </h4>
+                                        <p>Vodka, rhum, gin, tequila, jus de citron, triple sec</p>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            caipiroska
+                                        </h4>
+                                        <p>Citron vert, sirop de canne, vodka</p>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            east side 
+                                        </h4>
+                                        <p>Gin Tanqueray, jus de citron, sucre de canne, menthe, concombre</p>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            card passion 
+                                        </h4>
+                                        <p>Vodka, fruit passion, jus de citron, sucre de canne, jus de passion</p>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            brandy crusta  
+                                        </h4>
+                                        <p>Hennessy, jus de citrion, Cointreau, sucre de canne, bitter</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                    <!-- soft & hot drinks | fruit juice -->
+                    <div id="soft-hot-drinks-fruit-juice" class="betmomo-menu-items">
+                        <div>
+                            <div class="div-with-border">
+                                <h2 class="betmomo-menu-header">
+                                    hot drinks 
+                                </h2>
+                                <div class="toUpperCase">
+                                    <p>
+                                        Expresso
+                                    </p>
+                                    <p>chocalat chaud</p>
+                                    <p>double expresso</p>
+                                    <p>cappuccino</p>
+                                    <p>café au lait</p>
+                                    <p>cachacha</p>
+                                    <p>the glace</p>
+                                    <p>grog</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="div-with-border">
+                                <h2 class="betmomo-menu-header">
+                                    Soft drinks
+                                </h2>
+                                <div class="toUpperCase">
+                                    <p>
+                                        coca
+                                    </p>
+                                    <p>top</p>
+                                    <p>fanta</p>
+                                    <p>tonic </p>
+                                    <p>coca gm</p>
+                                    <p>soda</p>
+                                </div> 
+                            </div>
+                            <div class="div-with-border">
+                                <h2 class="betmomo-menu-header">
+                                    fruit juice 
+                                </h2>
+                                <div class="toUpperCase">
+                                    <p>
+                                        Jus d’ananas
+                                    </p>
+                                    <p>jus d’orange</p>
+                                    <p>jus degingembre</p>
+                                    <p>jus de corossol</p>
+                                    <p>jus de baobab</p>
+                                </div> 
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- dessert -->
+                    <div id="dessert" class="betmomo-menu-items">
+                        <div>
+                            <div class="div-with-border">
+                                <h2 class="betmomo-menu-header">
+                                    Dessert
+                                </h2>
+                                <div class="toUpperCase">
+                                    <p>
+                                        Crepe nature
+                                    </p>
+                                    <p>Crepe Nutella</p>
+                                    <p>mousse au chocolat</p>
+                                    <p>salade de fruit</p>
+                                    <p>dame blanche</p>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+                    <!-- sandwich & Burgers -->
+                    <div id="sandwich-burgers" class="betmomo-menu-items">
+                        <div>
+                            <div class="div-with-border">
+                                <h2 class="betmomo-menu-header">
+                                    Sandwich
+                                </h2>
+                                <div class="toUpperCase">
+                                    <p>
+                                        Panini poulet
+                                    </p>
+                                    <p>panini</p>
+                                    <p>cheesesteak sandwich</p>
+                                    <p>chicken cheesesteak sandwich</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="div-with-border">
+                                <h2 class="betmomo-menu-header">
+                                    Burgers
+                                </h2>
+                                <div class="toUpperCase">
+                                    <p>
+                                        classic burger
+                                    </p>
+                                    <p>chicken burger</p>
+                                    <p>chicken and cheese</p>
+                                </div> 
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <!-- footer -->
+            <footer class="footer">
+                <div >
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.6107331782246!2d11.505874314400005!3d3.893297097168151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x108bcf5c365b2ecf%3A0x2dc74cdbd77db82c!2sBETMOMO%20RESTAURANT%20LOUNGE!5e0!3m2!1sen!2scm!4v1670421193273!5m2!1sen!2scm" class="google-maps" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact-info bg-dark grid" >
+                    <div class="location">
+                        <h2 class="secondary-color toUpperCase">
+                            Where are we
+                        </h2>
+                        <hr class="hr-short secondary-color">
+                        <p class="address">
+                            Derrière Laboratoire Meka, Bastos - Yaoundé
+                        </p>
+                        <h3 class="call-us secondary-color toUpperCase">
+                            Call Us
+                        </h3>
+                        <p>
+                            655556264 / 680014949
+                        </p>
+                        <h3 class="write-us secondary-color toUpperCase">
+                            Email Us
+                        </h3>
+                        <p>
+                            example@example.com
+                        </p>
+                    </div>
+                    <div class="oppening-times">
+                        <h2 class="secondary-color toUpperCase">
+                            Opening Times
+                        </h2>
+                        <hr class="hr-short secondary-color">
+                        <h3 class="toUpperCase">
+                            Everyday Open
+                        </h3>
+                        <p>Monday - Sunday
+                        </p>
+                        <p>12:00 PM - 02:00 Am</p>
+                    </div>
+                    <div class="socials">
+                        <a href="instagram.com" target="_blank" class="secondary-color"> <i class="fa-brands fa-instagram fa-3x"></i></a>
+                        <a href="facebook.com" target="_blank" class="secondary-color"> <i class="fa-brands fa-facebook fa-3x"></i></a>
+                        <a href="twitter.com" class="secondary-color" target="_blank"><i class="fa-brands fa-twitter fa-3x"></i></a>
+                    </div>
+                    <div> 
+                        <h4>
+                            Sign up to our newsletter
+                        </h4>
+                        <form class="newsletter">
+                            <input type="email" id="email">
+                            <button type="submit" class="btn btn-submit">
+                                sign up
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
