@@ -47,7 +47,7 @@ const autoPlayAnimation = () => {
             }
     }, 20000);
 }
-// burger animation
+
 // const burgerGrowing = [
 //     {transform: 'scale(1)', easing: 'ease-out'},
 //     {transform: 'scale(1.05)', easing:'ease-in', offset: 0.5},
@@ -57,10 +57,11 @@ const autoPlayAnimation = () => {
 // const burgerTiming = {
 //     duration: 3000,
 //     iterations: Infinity,
-//     delay: 1000
+//     delay: 4000
 // }
 
 // burger.animate(burgerGrowing, burgerTiming)
+
 
 window.addEventListener('DOMContentLoaded', () => {
     setInterval(() => {
