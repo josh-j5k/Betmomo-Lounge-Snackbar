@@ -442,7 +442,7 @@ body {
  }
  .burger-img[data-burger="active"] {
     animation: burger-animation 3000ms 
-    ease-in-out 2000ms infinite, burger-animation-start 2000ms ease-in;
+    ease-in-out 2100ms infinite, burger-animation-start 2000ms ease-in;
    
  }
 
@@ -463,8 +463,8 @@ body {
     to {transform: scale(0); opacity: 0;}
 }
 @keyframes burger-animation-start {
-    from {transform: scale(0);}
-    to {transform: scale(0.95);}
+    from {transform: scale(0); opacity: 0;}
+    to {transform: scale(1); opacity: 1;}
 }
 
  @keyframes burger-animation {
